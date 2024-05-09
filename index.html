@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <link rel="stylesheet" href="./theme.css"> -->
+  <link rel="stylesheet" href="/style/login.css">
+</head>
+
+<body>
+  <div class="image-container"></div>
+  <div class="form-container">
+    <div class="Title">
+      <p class="h1">Artisan</p>
+      <p class="h1">Alleyway</p>
+    </div>
+    <form id="login" name="frm1">
+
+      <div class="username">
+        <label for="username">
+          <p class="lable-text">Username:</p>
+        </label>
+        <input type="text" id="username" name="username">
+      </div>
+      <div class="password">
+        <label for="password">
+          <p class="text">Password:</p>
+        </label>
+        <input type="password" id="password" name="password">
+        <p><input type="checkbox" onclick="showpassword()">Show Password</p>
+      </div>
+      <input type="submit" value="Sign In">
+
+      <p>new user?<a href="signup.html">you can sign up here!</p>
+      </a>
+    </form>
+  </div>
+  <script src="/javascript/1.js"></script>
+</body>
+
+</html>
