@@ -32,7 +32,7 @@ body {
 .image-container {
     width: 70%;
 
-    background-image: url('images/Ceramica_de_la_campina_de_moche-LA_LIBERTAD-Alex_Bryce-PROMPERU_1024x1024.webp');
+    background-image: url('/images/Ceramica_de_la_campina_de_moche-LA_LIBERTAD-Alex_Bryce-PROMPERU_1024x1024.webp');
     background-size: cover;
     background-position: center;
 }
